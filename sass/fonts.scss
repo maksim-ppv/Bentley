@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Avenir Next';
+    src: local('Avenir Next Regular'), local('Avenir-Next-Regular'),
+        url('../fonts/') format('woff2'),
+        url('../fonts/AvenirNextCyr-Regular.woff') format('woff'),
+        url('../fonts/AvenirNextCyr-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  };
+  @font-face {
+    font-family: 'Avenir Next bold';
+    src: local('Avenir Next bold'), local('Avenir-Next-bold'),
+        url('../fonts/AvenirNextCyr-bold.woff2') format('woff2'),
+        url('../fonts/AvenirNextCyr-bold.woff') format('woff'),
+        url('../fonts/AvenirNextCyr-bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  };
+  @font-face {
+    font-family: 'Rubik one';
+    src: local('rubik one'), local('rubik one'),
+        url('../fonts/rubik one.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  };

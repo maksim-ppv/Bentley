@@ -1,0 +1,66 @@
+
+// указание размера адаптивного шрифта
+// @include adaptiv-font(50,20)
+
+.header
+    background: url('../img/title.jpg') center / cover no-repeat
+
+.header__body
+    flex: 1 1 auto
+    height: 100%
+    max-width: 100%
+.header__content
+    margin-top: 15%
+    
+.logo_white
+    img
+        display: block
+        margin: auto
+.title 
+    color: #ffffff
+    font-family: "Rubik One"
+    @include adaptiv-font(35,20)
+    font-weight: 400
+    letter-spacing: 2px
+    line-height: 45px
+    text-transform: uppercase
+.header__title
+    max-width: 550px
+    margin-bottom: 35px 
+.description
+    display: inline-block
+    color: #ffffff
+    font-family: "Roboto Condensed"
+    @include adaptiv-font(20,14)
+    font-weight: 400
+    line-height: 35px 
+.header__description 
+    max-width: 422px 
+    margin-bottom: 50px
+.header-info 
+    display: flex
+    align-items: center
+.button
+    color: #ffffff
+    font-family: "Roboto Condensed"
+    @include adaptiv-font(25,16)
+    font-weight: 700
+    letter-spacing: 1px
+    line-height: 25px
+    text-transform: uppercase
+    border: 5px solid #ffffff 
+.header__button
+    padding: 15px 35px
+    margin-right: 50px 
+.search-location
+    color: #ffffff
+    font-family: "Roboto Condensed"
+    @include adaptiv-font(25,16)
+    font-weight: 700
+    letter-spacing: 1px
+    line-height: 25px
+    display: flex
+    align-items: center
+    img
+        padding-right: 15px
+    
