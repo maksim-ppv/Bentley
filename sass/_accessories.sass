@@ -2,11 +2,9 @@
     padding: 0 
     min-height: 0
 .accessories_container
-    padding-top: 40px
     margin-bottom: -104px
     z-index: 2
-    width: 100%
-
+    padding: 40px 0px 0px
 .accessories__menu-wrapper
     margin-top: 0 
 .accessories__menu
@@ -41,16 +39,23 @@
     .accessories__menu
         transform: translateX(calc(50vw - 115%))
 @media (max-width: 991.98px)
+    .accessories_container
+        padding-right: 0px
+        min-width: 100%
     .accessories__menu
         transform: translateX(calc(50vw - 83%))
     .accessories__img
-        padding-right: 10px
-        img
-            margin: 0px 0px 0px auto
+        width: 50%
+        margin-left: auto
         
 @media (max-width: 767.98px)
+    .accessories_container
+        padding-right: 20px
+        padding-left: 20px
     .accessories__menu
         transform: translateX(200%)
+    .accessories__img
+        width: 100%
     .accessories__column
         flex: 0 0 50%
         margin: auto
