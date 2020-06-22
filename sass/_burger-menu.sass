@@ -34,7 +34,7 @@
 
 .menu
     display: block
-    padding-top: 56px
+    margin-top: 56px
     transition: 1s
     transform: translateX(180px)
     align-self: flex-start
@@ -109,7 +109,6 @@
         display: flex
         justify-content: space-between
         align-items: center
-        background-color: none
     &__title
         display: block
         color: rgba(0, 0, 0, 0.7)
@@ -136,7 +135,8 @@
 
 .line_active
     transition: 1s
-    transform: translateX(0%)
+    transform: translateX(0%) !important
+    background-color: transparent !important
     .menu-text
         transition: 1s
         opacity: 0
@@ -241,11 +241,34 @@
     100%
         opacity: 0
         display: none
+@media (max-width: 1199px)
+    .menu
+        transform: translateX(calc(50vw - 243%))
+
+@media (max-width: 991.98px)
+    .menu
+        transform: translateX(calc(50vw - 175%))
            
+@media (max-width: 767.98px)
+    .menu
+        transform: translateX(200%)
 
 
 @media (max-width: 576px)
     .menu-button
         display: block
-
+    .menu__nav
+        padding: 20px 0px
+        min-width: 320px
+        height: 100%
+    .menu
+        transform: translateX(340%)
+        background-color: #fff
+    .menu-content__title
+        white-space: pre-wrap
+    .line_active
+        transform: translateX(-100%) !important
+        margin-top: 20px
+    .menu-mobile
+        max-width: 320px
 
