@@ -1,115 +1,122 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
     <title>Bentley</title>
 </head>
+
 <body>
-   <div class="wrapper">
+    <div class="wrapper">
         <header class="header fullscreen">
-                <div class="menu-wrapper">
-                    <div class="menu-mobile">
-                        <nav class="menu__nav">
-                            <ul class="menu__links">
-                                <li>
-                                    <span class="menu__link spoiler">Модельный Ряд</span>
-                                    <ul class="menu__items">
-                                        <li><span class="menu__link item__link" id="Mulsanne">Mulsanne</span></li>
-                                        <li><span class="menu__link item__link" id="FlyingSpur">Flying Spur</span> </li>
-                                        <li><span class="menu__link item__link" id="Continental">Continental</span></li>
-                                        <li><span class="menu__link item__link" id="Bentayga">Bentayga</span></li>
-                                    </ul></li>
-                                <li><a href="#" class="menu__link">Авто в наличии</a></li>
-                                <li><a href="#" class="menu__link">Авто с пробегом</a></li>
-                                <li><a href="#" class="menu__link">Сервис и запчасти</a></li>
-                                <li><a href="#" class="menu__link">аксессуары</a></li>
-                                <li><a href="#" class="menu__link">Bentley в Украине</a></li>
-                                <li><a href="#" class="menu__link">Bentley в Мире</a></li>
-                                <li><a href="#" class="menu__link">финансовые услуги</a></li>
-                                <li><a href="#" class="menu__link">контакты</a></li>
-                                <li><a href="#" class="menu__link">контакты</a></li>
-    
-                            </ul>
-                        </nav>
-                        <div class="menu">
-                            <div class="menu-content">
-                                <div class="menu-content__header">
-                                    <div class="menu-content__title display-none">Выберите свой Bentley</div>
-                                    <div class="menu__btn">
-                                        <button class="menu-button">
-                                            <span class="menu-button__line"></span>
-                                            <span class="menu-button__line"></span>
-                                            <span class="menu-button__line"></span>
-                                            </button>
-                                            <div class="menu-text">меню</div>
-                                    </div>
+            <div class="menu-wrapper">
+                <div class="menu-mobile">
+                    <nav class="menu__nav">
+                        <ul class="menu__links">
+                            <li>
+                                <span class="menu__link spoiler">Модельный Ряд</span>
+                                <ul class="menu__items">
+                                    <li><span class="menu__link item__link" id="Mulsanne">Mulsanne</span></li>
+                                    <li><span class="menu__link item__link" id="FlyingSpur">Flying Spur</span> </li>
+                                    <li><span class="menu__link item__link" id="Continental">Continental</span></li>
+                                    <li><span class="menu__link item__link" id="Bentayga">Bentayga</span></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="menu__link">Авто в наличии</a></li>
+                            <li><a href="#" class="menu__link">Авто с пробегом</a></li>
+                            <li><a href="#" class="menu__link">Сервис и запчасти</a></li>
+                            <li><a href="#" class="menu__link">аксессуары</a></li>
+                            <li><a href="#" class="menu__link">Bentley в Украине</a></li>
+                            <li><a href="#" class="menu__link">Bentley в Мире</a></li>
+                            <li><a href="#" class="menu__link">финансовые услуги</a></li>
+                            <li><a href="#" class="menu__link">контакты</a></li>
+                            <li><a href="#" class="menu__link">контакты</a></li>
+
+                        </ul>
+                    </nav>
+                    <div class="menu">
+                        <div class="menu-content">
+                            <div class="menu-content__header">
+                                <div class="menu-content__title display-none">Выберите свой Bentley</div>
+                                <div class="menu__btn">
+                                    <button class="menu-button">
+                                        <span class="menu-button__line"></span>
+                                        <span class="menu-button__line"></span>
+                                        <span class="menu-button__line"></span>
+                                    </button>
+                                    <div class="menu-text">меню</div>
                                 </div>
-                                <div class="menu-content__body display-none">
-                                    <div class="content-item__column">
-                                        <h3 class="content-item__title">New Continental GT Speed</h3>
-                                        <div class="content-item__img"><img src="./img/menu-1.jpg" alt=""></div>
-                                        <div class="content-item__description">Скорость, роскошь, комфорт</div>                            
-                                    </div>
-                                    <div class="content-item__column">
-                                        <h3 class="content-item__title">New Continental GT Speed Convertible</h3>
-                                        <div class="content-item__img"><img src="./img/menu-2.jpg" alt=""></div>
-                                        <div class="content-item__description">Скорость, драйв</div>                            
-                                    </div>
-                                    <div class="content-item__column">
-                                        <h3 class="content-item__title">Continental GT</h3>
-                                        <div class="content-item__img"><img src="./img/menu-3.jpg" alt=""></div>
-                                        <div class="content-item__description">Незыблемая мощность</div>                            
-                                    </div>
-                                    <div class="content-item__column">
-                                        <h3 class="content-item__title">Continental GT Convertible</h3>
-                                        <div class="content-item__img"><img src="./img/menu-4.jpg" alt=""></div>
-                                        <div class="content-item__description">Сенсационное открытие</div>                            
-                                    </div>
-                                    <div class="content-item__column">
-                                        <h3 class="content-item__title">Continental GT V8 S</h3>
-                                        <div class="content-item__img"><img src="./img/menu-5.jpg" alt=""></div>
-                                        <div class="content-item__description">Роскошь спонтанности</div>                            
-                                    </div>
-                                    <div class="content-item__column">
-                                        <h3 class="content-item__title">Continental GT V8 S Convertible</h3>
-                                        <div class="content-item__img"><img src="./img/menu-6.jpg" alt=""></div>
-                                        <div class="content-item__description">Харизматичный и ловкий</div>                            
-                                    </div>
-                                    <div class="content-item__column">
-                                        <h3 class="content-item__title">Continental GT V8</h3>
-                                        <div class="content-item__img"><img src="./img/menu-7.jpg" alt=""></div>
-                                        <div class="content-item__description">Рычание настоящего монстра</div>                            
-                                    </div>
-                                    <div class="content-item__column">
-                                        <h3 class="content-item__title">Continental GT V8 Convertible</h3>
-                                        <div class="content-item__img"><img src="./img/menu-8.jpg" alt=""></div>
-                                        <div class="content-item__description">Скорость, роскошь, комфорт</div>                            
-                                    </div>
+                            </div>
+                            <div class="menu-content__body display-none">
+                                <div class="content-item__column">
+                                    <h3 class="content-item__title">New Continental GT Speed</h3>
+                                    <div class="content-item__img"><img src="./img/menu-1.jpg" alt=""></div>
+                                    <div class="content-item__description">Скорость, роскошь, комфорт</div>
+                                </div>
+                                <div class="content-item__column">
+                                    <h3 class="content-item__title">New Continental GT Speed Convertible</h3>
+                                    <div class="content-item__img"><img src="./img/menu-2.jpg" alt=""></div>
+                                    <div class="content-item__description">Скорость, драйв</div>
+                                </div>
+                                <div class="content-item__column">
+                                    <h3 class="content-item__title">Continental GT</h3>
+                                    <div class="content-item__img"><img src="./img/menu-3.jpg" alt=""></div>
+                                    <div class="content-item__description">Незыблемая мощность</div>
+                                </div>
+                                <div class="content-item__column">
+                                    <h3 class="content-item__title">Continental GT Convertible</h3>
+                                    <div class="content-item__img"><img src="./img/menu-4.jpg" alt=""></div>
+                                    <div class="content-item__description">Сенсационное открытие</div>
+                                </div>
+                                <div class="content-item__column">
+                                    <h3 class="content-item__title">Continental GT V8 S</h3>
+                                    <div class="content-item__img"><img src="./img/menu-5.jpg" alt=""></div>
+                                    <div class="content-item__description">Роскошь спонтанности</div>
+                                </div>
+                                <div class="content-item__column">
+                                    <h3 class="content-item__title">Continental GT V8 S Convertible</h3>
+                                    <div class="content-item__img"><img src="./img/menu-6.jpg" alt=""></div>
+                                    <div class="content-item__description">Харизматичный и ловкий</div>
+                                </div>
+                                <div class="content-item__column">
+                                    <h3 class="content-item__title">Continental GT V8</h3>
+                                    <div class="content-item__img"><img src="./img/menu-7.jpg" alt=""></div>
+                                    <div class="content-item__description">Рычание настоящего монстра</div>
+                                </div>
+                                <div class="content-item__column">
+                                    <h3 class="content-item__title">Continental GT V8 Convertible</h3>
+                                    <div class="content-item__img"><img src="./img/menu-8.jpg" alt=""></div>
+                                    <div class="content-item__description">Скорость, роскошь, комфорт</div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
             <div class="container">
                 <div class="header__body">
-                    <div class="logo_white">
+                    <div class="logo_white wow fadeInUp" data-wow-delay="0.8s">
                         <img src="./img/logo.svg" alt="logo" />
-                </div>
-                <div class="header__content">
-                    <h1 class="title header__title">2017 Bentley Mulsanne Детали решают все</h1>
-                    <span class="description header__description">Этот успех подтвержден пять лет спустя новыми Bentley Mulsanne Turbo и Bentley Mulsanne Turbo R, которые признаны лучшими седанами в своем классе в мире.</span>
-                    <div class="header-info">
-                        <a href="" class="button header__button">Детальнее</a>
-                        <a href="#" class="search-location"><img src="./img/location_icon.svg" alt="" />Найти дилера</a>
+                    </div>
+                    <div class="header__content">
+                        <h1 class="title header__title wow fadeInRight" data-wow-delay="0.4s">2017 Bentley Mulsanne Детали решают все</h1>
+                        <span class="description header__description wow fadeInRight" data-wow-delay="0.6s">Этот успех подтвержден пять лет спустя новыми
+                            Bentley Mulsanne Turbo и Bentley Mulsanne Turbo R, которые признаны лучшими седанами в своем
+                            классе в мире.</span>
+                        <div class="header-info wow fadeInRight" data-wow-delay="0.8s">
+                            <a href="" class="button header__button">Детальнее</a>
+                            <a href="#" class="search-location"><img src="./img/location_icon.svg" alt="" />Найти
+                                дилера</a>
+                        </div>
                     </div>
                 </div>
-                   </div>
             </div>
         </header>
-            
+
         <main class="main">
             <section class="model-number fullscreen">
                 <div class="menu-wrapper">
@@ -123,7 +130,8 @@
                                         <li data-id="2"><a class="menu__link item__link">Flying Spur</a> </li>
                                         <li data-id="3"><a class="menu__link item__link">Continental</a></li>
                                         <li data-id="4"><a class="menu__link item__link">Bentayga</a></li>
-                                    </ul></li>
+                                    </ul>
+                                </li>
                                 <li><a href="#" class="menu__link">Авто в наличии</a></li>
                                 <li><a href="#" class="menu__link">Авто с пробегом</a></li>
                                 <li><a href="#" class="menu__link">Сервис и запчасти</a></li>
@@ -132,7 +140,7 @@
                                 <li><a href="#" class="menu__link">Bentley в Мире</a></li>
                                 <li><a href="#" class="menu__link">финансовые услуги</a></li>
                                 <li><a href="#" class="menu__link">контакты</a></li>
-    
+
                             </ul>
                         </nav>
                         <div class="menu">
@@ -144,50 +152,50 @@
                                             <span class="menu-button__line"></span>
                                             <span class="menu-button__line"></span>
                                             <span class="menu-button__line"></span>
-                                            </button>
-                                            <div class="menu-text">меню</div>
+                                        </button>
+                                        <div class="menu-text">меню</div>
                                     </div>
                                 </div>
                                 <div class="menu-content__body display-none">
                                     <div class="content-item__column">
                                         <h3 class="content-item__title">New Continental GT Speed</h3>
                                         <div class="content-item__img"><img src="./img/menu-1.jpg" alt=""></div>
-                                        <div class="content-item__description">Скорость, роскошь, комфорт</div>                            
+                                        <div class="content-item__description">Скорость, роскошь, комфорт</div>
                                     </div>
                                     <div class="content-item__column">
                                         <h3 class="content-item__title">New Continental GT Speed Convertible</h3>
                                         <div class="content-item__img"><img src="./img/menu-2.jpg" alt=""></div>
-                                        <div class="content-item__description">Скорость, драйв</div>                            
+                                        <div class="content-item__description">Скорость, драйв</div>
                                     </div>
                                     <div class="content-item__column">
                                         <h3 class="content-item__title">Continental GT</h3>
                                         <div class="content-item__img"><img src="./img/menu-3.jpg" alt=""></div>
-                                        <div class="content-item__description">Незыблемая мощность</div>                            
+                                        <div class="content-item__description">Незыблемая мощность</div>
                                     </div>
                                     <div class="content-item__column">
                                         <h3 class="content-item__title">Continental GT Convertible</h3>
                                         <div class="content-item__img"><img src="./img/menu-4.jpg" alt=""></div>
-                                        <div class="content-item__description">Сенсационное открытие</div>                            
+                                        <div class="content-item__description">Сенсационное открытие</div>
                                     </div>
                                     <div class="content-item__column">
                                         <h3 class="content-item__title">Continental GT V8 S</h3>
                                         <div class="content-item__img"><img src="./img/menu-5.jpg" alt=""></div>
-                                        <div class="content-item__description">Роскошь спонтанности</div>                            
+                                        <div class="content-item__description">Роскошь спонтанности</div>
                                     </div>
                                     <div class="content-item__column">
                                         <h3 class="content-item__title">Continental GT V8 S Convertible</h3>
                                         <div class="content-item__img"><img src="./img/menu-6.jpg" alt=""></div>
-                                        <div class="content-item__description">Харизматичный и ловкий</div>                            
+                                        <div class="content-item__description">Харизматичный и ловкий</div>
                                     </div>
                                     <div class="content-item__column">
                                         <h3 class="content-item__title">Continental GT V8</h3>
                                         <div class="content-item__img"><img src="./img/menu-7.jpg" alt=""></div>
-                                        <div class="content-item__description">Рычание настоящего монстра</div>                            
+                                        <div class="content-item__description">Рычание настоящего монстра</div>
                                     </div>
                                     <div class="content-item__column">
                                         <h3 class="content-item__title">Continental GT V8 Convertible</h3>
                                         <div class="content-item__img"><img src="./img/menu-8.jpg" alt=""></div>
-                                        <div class="content-item__description">Скорость, роскошь, комфорт</div>                            
+                                        <div class="content-item__description">Скорость, роскошь, комфорт</div>
                                     </div>
                                 </div>
                             </div>
@@ -195,18 +203,22 @@
                     </div>
                 </div>
                 <div class="container">
-                    <div class="logo_white">
-                            <img src="./img/logo.svg" alt="logo" />
+                    <div class="logo_white wow fadeInUp">
+                        <img src="./img/logo.svg" alt="logo" />
                     </div>
-                    <div class="model-number__body">
+                    <div class="model-number__body wow fadeInRight" data-wow-duration="2s">
                         <div class="model-number__content">
                             <h2 class="model-number__title title">Модельний
                                 ряд</h2>
                             <ul class="model-number__items" id="cars__controls">
-                                <li class="model-number__item"><span class="model-number__link">The Mulsanne Range ›</span></li>
-                                <li class="model-number__item"><span class="model-number__link">The Flying Spur Range ›</span></li>
-                                <li class="model-number__item"><span class="model-number__link">The New Continental Range ›</span></li>
-                                <li class="model-number__item"><span class="model-number__link">The Bentayga Range ›</span></li>
+                                <li class="model-number__item"><span class="model-number__link">The Mulsanne Range
+                                        ›</span></li>
+                                <li class="model-number__item"><span class="model-number__link">The Flying Spur Range
+                                        ›</span></li>
+                                <li class="model-number__item"><span class="model-number__link">The New Continental
+                                        Range ›</span></li>
+                                <li class="model-number__item"><span class="model-number__link">The Bentayga Range
+                                        ›</span></li>
                             </ul>
                         </div>
                         <div class="model-number__cars" id="cars">
@@ -214,73 +226,73 @@
                                 <h2 class="car__title title">Continental GT V8 S Convertible</h2>
                                 <div class="car__description">
                                     <span>Объем двигателя<br>
-    
+
                                         мощность двигателя<br>
-                                        
+
                                         Разгон от 0 до 100 км / ч</span>
-                                        <strong>
-                                            3993 CC<br>
-    
-                                            572 BHP<br>
-                                            
-                                            3.8 sec 
-                                        </strong>
-                                    </div>
-                                    <button type="submit" class="button car__button">полная спецификация</button>
+                                    <strong>
+                                        3993 CC<br>
+
+                                        572 BHP<br>
+
+                                        3.8 sec
+                                    </strong>
+                                </div>
+                                <button type="submit" class="button car__button">полная спецификация</button>
                             </div>
                             <div class="model-number__car car__bg_2">
                                 <h2 class="car__title title">Continental GT V8 S Convertible</h2>
                                 <div class="car__description">
                                     <span>Объем двигателя<br>
-    
+
                                         мощность двигателя<br>
-                                        
+
                                         Разгон от 0 до 100 км / ч</span>
-                                        <strong>
-                                            3993 CC<br>
-    
-                                            572 BHP<br>
-                                            
-                                            3.8 sec 
-                                        </strong>
-                                    </div>
-                                    <button type="submit" class="button car__button">полная спецификация</button>
+                                    <strong>
+                                        3993 CC<br>
+
+                                        572 BHP<br>
+
+                                        3.8 sec
+                                    </strong>
+                                </div>
+                                <button type="submit" class="button car__button">полная спецификация</button>
                             </div>
                             <div class="model-number__car car__bg_3">
                                 <h2 class="car__title title">Continental GT V8 S Convertible</h2>
                                 <div class="car__description">
                                     <span>Объем двигателя<br>
-    
+
                                         мощность двигателя<br>
-                                        
+
                                         Разгон от 0 до 100 км / ч</span>
-                                        <strong>
-                                            3993 CC<br>
-    
-                                            572 BHP<br>
-                                            
-                                            3.8 sec 
-                                        </strong>
-                                    </div>
-                                    <button type="submit" class="button car__button">полная спецификация</button>
+                                    <strong>
+                                        3993 CC<br>
+
+                                        572 BHP<br>
+
+                                        3.8 sec
+                                    </strong>
+                                </div>
+                                <button type="submit" class="button car__button">полная спецификация</button>
                             </div>
                             <div class="model-number__car car__bg_4">
                                 <h2 class="car__title title">Continental GT V8 S Convertible</h2>
                                 <div class="car__description">
                                     <span>Объем двигателя<br>
-    
+
                                         мощность двигателя<br>
-                                        
+
                                         Разгон от 0 до 100 км / ч</span>
-                                        <strong>
-                                            3993 CC<br>
-    
-                                            572 BHP<br>
-                                            
-                                            3.8 sec 
-                                        </strong>
-                                    </div>
-                                    <button type="submit" class="button car__button">полная спецификация</button>
+                                    <strong>
+                                        3993 CC<br>
+
+                                        572 BHP<br>
+
+                                        3.8 sec
+                                    </strong>
+                                </div>
+                                <button type="submit" class="button car__button">полная спецификация</button>
                             </div>
                         </div>
                     </div>
@@ -301,9 +313,9 @@
                                             <span class="menu-button__line"></span>
                                             <span class="menu-button__line"></span>
                                             <span class="menu-button__line"></span>
-                                            </button>
-                                            <div class="menu-text  accessories__menu-text title">аксессуары</div>
-                                        </div>
+                                        </button>
+                                        <div class="menu-text  accessories__menu-text title">аксессуары</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -311,98 +323,43 @@
                 </div>
                 <div class="accessories__body">
                     <div class="container accessories_container">
-                        <div class="logo_white accessories__img">
-                                <img src="./img/logo.svg" alt="logo" />
+                        <div class="logo_white accessories__img wow fadeInUp">
+                            <img src="./img/logo.svg" alt="logo" />
                         </div>
                     </div>
-                        <div class="accessories__row">
-                            <div class="accessories__column accessories-top"><img src="./img/accessories-1.jpg" alt="accessories__image" /><span class="accessories__description">Для него</span></div>
-                            <div class="accessories__column accessories-top"><img src="./img/accessories-2.jpg" alt="accessories__image" /><span class="accessories__description">Для нее</span></div>
-                        </div>
-                        <div class="accessories__row">
-                            <div class="accessories__column accessories-bottom"><img src="./img/accessories-3.jpg" alt="accessories__image" /><span class="accessories__description">Для авто</span></div>
-                            <div class="accessories__column accessories-bottom"><img src="./img/accessories-4.jpg" alt="accessories__image" /><span class="accessories__description">Для детей</span></div>
-                            <div class="accessories__column accessories-bottom"><img src="./img/accessories-5.jpg" alt="accessories__image" /><span class="accessories__description">Подарки</span></div>
-                        </div>
-                    </div>  
+                    <div class="accessories__row">
+                        <div class="accessories__column accessories-top"><img src="./img/accessories-1.jpg"
+                                alt="accessories__image" /><span class="accessories__description">Для него</span></div>
+                        <div class="accessories__column accessories-top"><img src="./img/accessories-2.jpg"
+                                alt="accessories__image" /><span class="accessories__description">Для нее</span></div>
+                    </div>
+                    <div class="accessories__row">
+                        <div class="accessories__column accessories-bottom"><img src="./img/accessories-3.jpg"
+                                alt="accessories__image" /><span class="accessories__description">Для авто</span></div>
+                        <div class="accessories__column accessories-bottom"><img src="./img/accessories-4.jpg"
+                                alt="accessories__image" /><span class="accessories__description">Для детей</span></div>
+                        <div class="accessories__column accessories-bottom"><img src="./img/accessories-5.jpg"
+                                alt="accessories__image" /><span class="accessories__description">Подарки</span></div>
+                    </div>
+                </div>
             </section>
-            <section class="model-number fullscreen">
-                <div class="menu-wrapper">
+            <section class="new-items fullscreen">
+                <div class="menu-wrapper accessories__menu-wrapper new-items__menu-wrapper">
                     <div class="menu-mobile">
                         <nav class="menu__nav">
-                            <ul class="menu__links">
-                                <li>
-                                    <span class="menu__link spoiler">Модельный Ряд</span>
-                                    <ul class="menu__items">
-                                        <li data-id="1"><a class="menu__link item__link">Mulsanne</a></li>
-                                        <li data-id="2"><a class="menu__link item__link">Flying Spur</a> </li>
-                                        <li data-id="3"><a class="menu__link item__link">Continental</a></li>
-                                        <li data-id="4"><a class="menu__link item__link">Bentayga</a></li>
-                                    </ul></li>
-                                <li><a href="#" class="menu__link">Авто в наличии</a></li>
-                                <li><a href="#" class="menu__link">Авто с пробегом</a></li>
-                                <li><a href="#" class="menu__link">Сервис и запчасти</a></li>
-                                <li><a href="#" class="menu__link">аксессуары</a></li>
-                                <li><a href="#" class="menu__link">Bentley в Украине</a></li>
-                                <li><a href="#" class="menu__link">Bentley в Мире</a></li>
-                                <li><a href="#" class="menu__link">финансовые услуги</a></li>
-                                <li><a href="#" class="menu__link">контакты</a></li>
-    
-                            </ul>
+
                         </nav>
-                        <div class="menu">
+                        <div class="menu accessories__menu new-items__menu">
                             <div class="menu-content">
                                 <div class="menu-content__header">
-                                    <div class="menu-content__title display-none">Выберите свой Bentley</div>
                                     <div class="menu__btn">
                                         <button class="menu-button">
                                             <span class="menu-button__line"></span>
                                             <span class="menu-button__line"></span>
                                             <span class="menu-button__line"></span>
-                                            </button>
-                                            <div class="menu-text">меню</div>
-                                    </div>
-                                </div>
-                                <div class="menu-content__body display-none">
-                                    <div class="content-item__column">
-                                        <h3 class="content-item__title">New Continental GT Speed</h3>
-                                        <div class="content-item__img"><img src="./img/menu-1.jpg" alt=""></div>
-                                        <div class="content-item__description">Скорость, роскошь, комфорт</div>                            
-                                    </div>
-                                    <div class="content-item__column">
-                                        <h3 class="content-item__title">New Continental GT Speed Convertible</h3>
-                                        <div class="content-item__img"><img src="./img/menu-2.jpg" alt=""></div>
-                                        <div class="content-item__description">Скорость, драйв</div>                            
-                                    </div>
-                                    <div class="content-item__column">
-                                        <h3 class="content-item__title">Continental GT</h3>
-                                        <div class="content-item__img"><img src="./img/menu-3.jpg" alt=""></div>
-                                        <div class="content-item__description">Незыблемая мощность</div>                            
-                                    </div>
-                                    <div class="content-item__column">
-                                        <h3 class="content-item__title">Continental GT Convertible</h3>
-                                        <div class="content-item__img"><img src="./img/menu-4.jpg" alt=""></div>
-                                        <div class="content-item__description">Сенсационное открытие</div>                            
-                                    </div>
-                                    <div class="content-item__column">
-                                        <h3 class="content-item__title">Continental GT V8 S</h3>
-                                        <div class="content-item__img"><img src="./img/menu-5.jpg" alt=""></div>
-                                        <div class="content-item__description">Роскошь спонтанности</div>                            
-                                    </div>
-                                    <div class="content-item__column">
-                                        <h3 class="content-item__title">Continental GT V8 S Convertible</h3>
-                                        <div class="content-item__img"><img src="./img/menu-6.jpg" alt=""></div>
-                                        <div class="content-item__description">Харизматичный и ловкий</div>                            
-                                    </div>
-                                    <div class="content-item__column">
-                                        <h3 class="content-item__title">Continental GT V8</h3>
-                                        <div class="content-item__img"><img src="./img/menu-7.jpg" alt=""></div>
-                                        <div class="content-item__description">Рычание настоящего монстра</div>                            
-                                    </div>
-                                    <div class="content-item__column">
-                                        <h3 class="content-item__title">Continental GT V8 Convertible</h3>
-                                        <div class="content-item__img"><img src="./img/menu-8.jpg" alt=""></div>
-                                        <div class="content-item__description">Скорость, роскошь, комфорт</div>                            
+                                        </button>
+                                        <div class="menu-text accessories__menu-text new-items__menu-text title">Новинки
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -410,106 +367,167 @@
                     </div>
                 </div>
                 <div class="container">
-                    <div class="logo_white">
-                            <img src="./img/logo.svg" alt="logo" />
+                    <div class="logo_white new-items__logo wow fadeInUp">
+                        <img src="./img/logo_black.svg" alt="logo" />
                     </div>
-                    <div class="model-number__body">
-                        <div class="model-number__content">
-                            <h2 class="model-number__title title">Модельний
-                                ряд</h2>
-                            <ul class="model-number__items" id="cars__controls">
-                                <li class="model-number__item"><span class="model-number__link">The Mulsanne Range ›</span></li>
-                                <li class="model-number__item"><span class="model-number__link">The Flying Spur Range ›</span></li>
-                                <li class="model-number__item"><span class="model-number__link">The New Continental Range ›</span></li>
-                                <li class="model-number__item"><span class="model-number__link">The Bentayga Range ›</span></li>
-                            </ul>
-                        </div>
-                        <div class="model-number__cars" id="cars">
-                            <div class="model-number__car car__bg_1">
-                                <h2 class="car__title title">Continental GT V8 S Convertible</h2>
-                                <div class="car__description">
-                                    <span>Объем двигателя<br>
-    
-                                        мощность двигателя<br>
-                                        
-                                        Разгон от 0 до 100 км / ч</span>
-                                        <strong>
-                                            3993 CC<br>
-    
-                                            572 BHP<br>
-                                            
-                                            3.8 sec 
-                                        </strong>
-                                    </div>
-                                    <button type="submit" class="button car__button">полная спецификация</button>
-                            </div>
-                            <div class="model-number__car car__bg_2">
-                                <h2 class="car__title title">Continental GT V8 S Convertible</h2>
-                                <div class="car__description">
-                                    <span>Объем двигателя<br>
-    
-                                        мощность двигателя<br>
-                                        
-                                        Разгон от 0 до 100 км / ч</span>
-                                        <strong>
-                                            3993 CC<br>
-    
-                                            572 BHP<br>
-                                            
-                                            3.8 sec 
-                                        </strong>
-                                    </div>
-                                    <button type="submit" class="button car__button">полная спецификация</button>
-                            </div>
-                            <div class="model-number__car car__bg_3">
-                                <h2 class="car__title title">Continental GT V8 S Convertible</h2>
-                                <div class="car__description">
-                                    <span>Объем двигателя<br>
-    
-                                        мощность двигателя<br>
-                                        
-                                        Разгон от 0 до 100 км / ч</span>
-                                        <strong>
-                                            3993 CC<br>
-    
-                                            572 BHP<br>
-                                            
-                                            3.8 sec 
-                                        </strong>
-                                    </div>
-                                    <button type="submit" class="button car__button">полная спецификация</button>
-                            </div>
-                            <div class="model-number__car car__bg_4">
-                                <h2 class="car__title title">Continental GT V8 S Convertible</h2>
-                                <div class="car__description">
-                                    <span>Объем двигателя<br>
-    
-                                        мощность двигателя<br>
-                                        
-                                        Разгон от 0 до 100 км / ч</span>
-                                        <strong>
-                                            3993 CC<br>
-    
-                                            572 BHP<br>
-                                            
-                                            3.8 sec 
-                                        </strong>
-                                    </div>
-                                    <button type="submit" class="button car__button">полная спецификация</button>
+                    <div class="new-items__body">
+                        <div class="new-items__column wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1.5s">
+                            <img src="./img/accessories-3.jpg" alt="new-items" />
+                            <button class="button new-items__button">Bentley в Украине </button>
+                            <div class="new-items__text">
+                                <h3 class="new-items__title title">Mulsanne Extended Wheelbase</h3>
+                                <p class="new-items__description">1965 появляется модель Bentley Т, и марка
+                                    выходит из тени «Rolls-Royce». Этот успех через пять лет подтверждает новые Bentley
+                                    Mulsanne Turbo и Bentley Mulsanne Turbo R, которые признают лучшими седанами в своем
+                                    классе в мире ...</p><a href="#" class="new-items__more">Узнать больше</a>
                             </div>
                         </div>
+                        <div class="new-items__column new-item_2 wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="1.5s">
+                            <img src="./img/newitems-3.jpg" alt="new-items" />
+                            <button class="button new-items__button">Bentley в Украине </button>
+                            <div class="new-items__text">
+                                <h3 class="new-items__title new-item__title_2 title">Mulsanne Extended Wheelbase</h3>
+                                <p class="new-items__description new-item__description_2">1965 появляется модель Bentley
+                                    Т, и марка
+                                    выходит из тени «Rolls-Royce». Этот успех через пять лет подтверждает новые Bentley
+                                    Mulsanne Turbo и Bentley Mulsanne Turbo R, которые признают лучшими седанами в своем
+                                    классе в мире ...</p><a href="#" class="new-items__more new-item__more_2">Узнать
+                                    больше</a>
+                            </div>
+                        </div>
+                        <div class="new-items__column wow fadeInUp" data-wow-delay="0.8s" data-wow-duration="1.5s">
+                            <img src="./img/newitems-3.jpg" alt="new-items" />
+                            <button class="button new-items__button">Bentley в Украине </button>
+                            <div class="new-items__text">
+                                <h3 class="new-items__title title">Mulsanne Extended Wheelbase</h3>
+                                <p class="new-items__description">1965 появляется модель Bentley Т, и марка
+                                    выходит из тени «Rolls-Royce». Этот успех через пять лет подтверждает новые Bentley
+                                    Mulsanne Turbo и Bentley Mulsanne Turbo R, которые признают лучшими седанами в своем
+                                    классе в мире ...</p><a href="#" class="new-items__more">Узнать больше</a>
+                            </div>
+                        </div>
+
                     </div>
 
                 </div>
             </section>
+            <section class="gallery fullscreen">
+                <div class='container'>
+                    <h2 class="gallery__title">Присоединяйся в клуб Bentley</h2>
+                </div>
+                <div class="gallery__body">
+                    <div class="gallery__column">
+                        <div class="gallery__item gallery__item_1">
+                            <img class="gallery__bg" src="./img/club-1.jpg" alt="image-club">
+                            <a href="#"><img class="gallery__social" src="./img/inst.svg" alt="inst" /></a>
+                            <span class="gallery__text">Выставка "Bentley. Be Extraordibary "успешно прошла в столице.
+                                Команда Bentley создала увлекательную атмосферу в центре столицы.<br>
+                                <br>
+                                #Bentley #BeExtraordinary </span>
+                        </div>
+                        <div class="gallery__item gallery__item_5">
+                            <img class="gallery__bg" src="./img/club-2.jpg" alt="image-club">
+                            <a href="#"><img class="gallery__social" src="./img/fb.svg" alt="inst" /></a>
+                            <span class="gallery__text">Выставка "Bentley. Be Extraordibary "успешно прошла в столице...
+                                <br>
+                                #Bentley #BeExtraordinary </span>
+                        </div>
+                        <div class="gallery__item gallery__item_5">
+                            <img class="gallery__bg" src="./img/club-3.jpg" alt="image-club">
+                            <a href="#"><img class="gallery__social" src="./img/inst.svg" alt="inst" /></a>
+                            <span class="gallery__text">Выставка "Bentley. Be Extraordibary "успешно прошла в столице...
+                                <br>
+                                #Bentley #BeExtraordinary </span>
+                        </div>
+                    </div>
+                    <div class="gallery__column">
+                        <div class="gallery__item gallery__item_5">
+                        <img class="gallery__bg" src="./img/club-4.jpg" alt="image-club">
+                        <a href="#"><img class="gallery__social" src="./img/fb.svg" alt="inst" /></a>
+                        <span class="gallery__text">Выставка "Bentley. Be Extraordibary "успешно прошла в столице...
+                            <br>
+                            #Bentley #BeExtraordinary </span>
+                    </div>
+                    <div class="gallery__item gallery__item_5">
+                        <img class="gallery__bg" src="./img/club-5.jpg" alt="image-club">
+                        <a href="#"><img class="gallery__social" src="./img/inst.svg" alt="inst" /></a>
+                        <span class="gallery__text">Выставка "Bentley. Be Extraordibary "успешно прошла в столице...
+                            <br>
+                            #Bentley #BeExtraordinary </span>
+                    </div>
+                    <div class="gallery__item gallery__item_1">
+                        <img class="gallery__bg" src="./img/club-6.jpg" alt="image-club">
+                        <a href="#"><img class="gallery__social" src="./img/fb.svg" alt="inst" /></a>
+                        <span class="gallery__text">Выставка "Bentley. Be Extraordibary "успешно прошла в столице.
+                            Команда Bentley создала увлекательную атмосферу в центре столицы.<br>
+                            <br>
+                            #Bentley #BeExtraordinary </span>
+                    </div>
+                </div>
+                    <div class="gallery__column gallery__column_3">
+                        <div class="gallery__column_50">
+                            <div class="gallery__item gallery__item_5 gallery__column_3-1">
+                                <img class="gallery__bg" src="./img/club-9.jpg" alt="image-club">
+                                <a href="#"><img class="gallery__social" src="./img/inst.svg" alt="inst" /></a>
+                                <span class="gallery__text">Выставка "Bentley. Be Extraordibary "успешно прошла в столице...
+                                    <br>
+                                    #Bentley #BeExtraordinary </span>
+                            </div>
+                            <div class="gallery__item gallery__item_5 gallery__column_3-5">
+                                <img class="gallery__bg" src="./img/club-8.jpg" alt="image-club">
+                                <a href="#"><img class="gallery__social" src="./img/fb.svg" alt="inst" /></a>
+                                <span class="gallery__text">Выставка "Bentley. Be Extraordibary "успешно прошла в столице...
+                                    <br>
+                                    #Bentley #BeExtraordinary </span>
+                            </div>
+                            <div class="gallery__item gallery__item_5 gallery__column_3-5">
+                                <img class="gallery__bg" src="./img/club-7.jpg" alt="image-club">
+                                <a href="#"><img class="gallery__social" src="./img/inst.svg" alt="inst" /></a>
+                                <span class="gallery__text">Выставка "Bentley. Be Extraordibary "успешно прошла в столице...
+                                    <br>
+                                    #Bentley #BeExtraordinary </span>
+                            </div>
+                        </div>
+                        <div class="gallery__column_50">
+                            <div class="gallery__item gallery__item_5 gallery__column_3-5">
+                                <img class="gallery__bg" src="./img/club--12.jpg" alt="image-club">
+                                <a href="#"><img class="gallery__social" src="./img/fb.svg" alt="inst" /></a>
+                                <span class="gallery__text">Выставка "Bentley. Be Extraordibary "успешно прошла в столице...
+                                    <br>
+                                    #Bentley #BeExtraordinary </span>
+                            </div>
+                            <div class="gallery__item gallery__item_5 gallery__column_3-5">
+                                <img class="gallery__bg" src="./img/club-11.jpg" alt="image-club">
+                                <a href="#"><img class="gallery__social" src="./img/fb.svg" alt="inst" /></a>
+                                <span class="gallery__text">Выставка "Bentley. Be Extraordibary "успешно прошла в столице...
+                                    <br>
+                                    #Bentley #BeExtraordinary </span>
+                            </div>
+                            <div class="gallery__item gallery__item_5 gallery__column_3-1">
+                                <img class="gallery__bg" src="./img/club-10.jpg" alt="image-club">
+                                <a href="#"><img class="gallery__social" src="./img/fb.svg" alt="inst" /></a>
+                                <span class="gallery__text">Выставка "Bentley. Be Extraordibary "успешно прошла в столице...
+                                    <br>
+                                    #Bentley #BeExtraordinary </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
         <footer class="footer">
-    
+            <div class="footer__body">
+                <span class="footer__low footer__text">© Вместе с вами с 1992 года. Все права защищены</span>
+                <img src="./img/logo_black.svg" alt="logo" />
+                <span class="footer__made footer__text">Made by CF. Digital</span>
+            </div>
         </footer>
 
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/burger.js"></script>
 </body>
+
 </html>

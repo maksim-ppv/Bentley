@@ -1,0 +1,30 @@
+.footer
+.footer__body 
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 0px 40px 40px 40px
+.footer__text
+    flex: 0 1 40%
+    color: rgba(0, 0, 0, 0.7)
+    font-family: "Avenir Next"
+    @include adaptiv-font(20,16)
+    font-weight: 400
+    line-height: 35px
+.footer__low
+.footer__made
+    text-align: right 
+@media (max-width: 767.98px)
+    .footer__body 
+        flex-wrap: wrap
+    .footer__made
+        text-align: left
+@media (max-width: 576.98px)
+    .footer__text
+        flex: 0 1 100%
+        text-align: center
+        padding: 20px
+    .footer__body
+        justify-content: center
+        padding: 0
+

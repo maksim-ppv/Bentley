@@ -1,0 +1,90 @@
+.gallery
+    padding-top: 0px 
+.gallery__title 
+    color: rgba(0, 0, 0, 0.7)
+    font-family: "Gotham Pro"
+    @include adaptiv-font(35,25)
+    letter-spacing: 2px
+    line-height: 45px
+    text-transform: uppercase
+    padding: 30px 0px 50px 0px
+.gallery__body
+    display: flex 
+.gallery__column
+    flex: 0 1 33.333%
+    display: flex
+    flex-wrap: wrap 
+.gallery__column_50
+    flex: 0 1 50%
+.gallery__item
+    position: relative 
+.gallery__bg
+    transition: 0.5s
+    width: 100%
+.gallery__social
+    position: absolute
+    top: 20px
+    left: 20px
+    width: 30px
+    height: 30px
+.gallery__text
+    position: absolute 
+    bottom: 0px
+    left: 10px
+    color: #ffffff
+    font-family: "Avenir Next"
+    @include adaptiv-font(16,12)
+    font-weight: 400
+    line-height: 25px
+    opacity: 0
+    transition: 0.5s 
+    margin: 10px
+.gallery__item
+    transition: 0.5s
+    &:hover
+        transition: 0.5s
+        transform: scale(1.05)
+        z-index: 5
+        cursor: pointer
+        .gallery__bg
+            transition: 0.5s
+            filter: brightness(40%)
+        .gallery__text
+            opacity: 1
+            transition: 0.5s
+.gallery__item_1
+    flex: 0 1 100% 
+.gallery__item_5
+    flex: 0 1 50% 
+@media (max-width: 1170px)
+    .gallery__text
+        line-height: 15px
+@media (max-width: 991.98px)
+    .gallery__column
+        flex: 0 0 50%
+    .gallery__body
+        flex-wrap: wrap
+    .gallery__column_3
+        flex: 0 1 100%
+    .gallery__column_50
+        display: flex
+        flex-wrap: wrap
+    .gallery__column_3-1
+        flex: 0 1 100%
+    .gallery__column_3-5
+        flex: 0 1 50%
+@media (max-width: 767.98px)
+    .gallery__social
+        width: 20px
+        height: 20px
+    .gallery__text
+        line-height: 15px
+@media (max-width: 576.98px)
+    .gallery__item_5
+        flex: 0 1 100%
+
+    
+
+
+    
+ 

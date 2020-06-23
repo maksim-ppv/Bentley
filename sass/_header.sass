@@ -16,6 +16,12 @@
     img
         display: block
         margin: auto
+        &:hover
+            transition: 1s
+            animation: logo 2s linear forwards
+            // transform-origin: top center
+            // transform: skew(0deg, -10deg)
+            // perspective(200px) translate(0, 100%) rotateX(45deg) 
 .title 
     color: #ffffff
     font-family: "Rubik One"
@@ -79,3 +85,16 @@
     .search-location
         margin: 20px 0px 0px 0px
     
+@keyframes logo
+
+    0%
+        transform: skew(0deg, 0deg)
+    25%
+        transform: skew(0deg, -10deg)
+    50%
+        transform: skew(0deg, 0deg)
+    75%
+        transform: skew(0deg, 10deg)    
+    100%
+        transform: skew(0deg, 0deg)
+        

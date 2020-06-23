@@ -1,0 +1,115 @@
+.menu-wrapper 
+.accessories__menu-wrapper 
+.new-items__menu-wrapper
+    margin-top: -56px 
+.new-items__logo
+    margin-bottom: 70px
+.new-items__menu-text 
+.title 
+.container 
+.logo_white
+.new-items__body
+    margin-left: -20px
+    margin-right: -20px
+    display: flex
+    justify-content: space-around
+.new-items__column
+    margin: 0px 20px
+    flex: 0 1 33.333%
+    position: relative
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    
+    img
+        object-fit: fill
+        width: 100%
+.button 
+.new-items__button
+    position: absolute 
+    top: 20px
+    left: 20px
+    color: #4a4a4a
+    font-family: "Roboto Condensed"
+    @include adaptiv-font(18,14)
+    font-weight: 700
+    line-height: 25px
+    padding: 5px 10px
+    background-color: #ffffff
+    border: none
+.new-items__text
+    margin-top: auto
+    padding: 50px 30px 0px 30px
+.new-items__title
+    color: #000000
+    @include adaptiv-font(20,14)
+    margin-bottom: 20px
+    font-family: "Gotham Pro" 
+    text-transform: capitalize
+.new-items__description
+    color: #000000
+    font-family: "Avenir Next"
+    @include adaptiv-font(18,14)
+    font-weight: 400
+    line-height: 35px 
+    margin-bottom: 20px 
+.new-items__more
+    display: block 
+    color: #4a4a4a
+    font-family: "Gotham Pro"
+    @include adaptiv-font(18,14)
+    font-weight: 700
+    letter-spacing: 0.8px
+    line-height: 25px
+    text-transform: uppercase
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.2)
+    padding-bottom: 20px
+    margin-bottom: 30px 
+.new-item_2
+    cursor: pointer
+    background: url('../img/newitems-2.jpg') no-repeat
+    background-size: cover
+    background-position: center center
+    box-shadow: 0 25px 25px rgba(57, 68, 84, 0.25)
+    margin-bottom: 30px
+    img
+        opacity: 0
+.new-item__title_2
+    color: #ffffff
+.new-item__description_2
+    color: #ffffff
+.new-item__more_2
+    color: #ffffff
+    box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.75)
+
+@media (max-width: 991.98px)
+    .new-items__body
+        flex-wrap: wrap
+    .new-items__column
+        flex: 0 0 45%
+    .new-items__menu
+        transform: translateX(calc(50vw - 100%))
+    .new-items__body
+        margin-left: -10px
+        margin-right: -10px
+    .new-items__column
+        margin: 10px
+    .new-items__text
+        padding: 30px 20px 0px 20px
+@media (max-width: 767.98px)
+    .new-items__logo
+        margin-bottom: 50px
+    .new-items__menu
+        transform: translateX(200%)
+@media (max-width: 576.98px)
+    .new-items__logo
+        margin-bottom: 30px
+    .new-items__menu
+        transform: translateX(340%)
+
+    .new-items__column
+        flex: 0 1 100%
+
+        
+
+    

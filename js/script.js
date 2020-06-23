@@ -47,3 +47,10 @@ $(document).ready(function() {
     });
   });
 
+
+wow = new WOW({
+    // mobile: false,
+    offset: 80
+})
+wow.init();
+
